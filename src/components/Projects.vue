@@ -85,20 +85,23 @@ export default {
 <style>
 #projects{
     background-color: #1EA896;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 #projects .card{
-   
-    margin-top: 5vh;
+    
+    margin: 5vh;
     background-color: lightgrey !important;
 }
 #projects h1{
-     font-size: 1.4rem;
+     font-size: 1.2rem;
      font-family: 'Montserrat Alternates', sans-serif;
 }
 #projects a:hover{
    box-shadow: 0px 0px 15px yellow;
    text-decoration: none !important;
+ }
+ #projects img{
+     max-height: 250px;
  }
 </style>

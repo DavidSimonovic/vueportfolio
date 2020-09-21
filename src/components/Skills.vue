@@ -83,13 +83,15 @@ name: 'Skills'
 <style scoped>
 #skills
   {
-     padding: 5vh;
+     
       font-family: 'Architects Daughter', cursive;
       background: #4C5F6B;
+      padding-top: 10vh;
+    padding-bottom: 10vh; 
        }
 .card
 {
-  margin-top: 2vh;
+  margin-top: 5vh;
   border-radius: 50px;
   }
 
