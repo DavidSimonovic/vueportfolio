@@ -1,7 +1,7 @@
 <template>
   <div id="about">
       <div class="container text-center">
-          <h1> What i can make for you</h1>
+          
           <div class="row">
               <div class="col-md-4 col-12">
                    <div class="card">

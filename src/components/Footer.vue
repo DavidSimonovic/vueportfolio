@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 footer {
   font-family: 'Montserrat Alternates', sans-serif;
   background-color: black;

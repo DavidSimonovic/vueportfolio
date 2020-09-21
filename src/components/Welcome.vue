@@ -29,13 +29,11 @@ export default {
   {
       font-family: 'Montserrat Alternates', sans-serif;
       background-color: #1EA896;
-      height: 100vh;
+     
       
   }
-
-
 #entry-header {
-
+  height: 100vh;
   padding-top: 10%;
   text-align: center;
   font-family: 'Monoton', cursive;
@@ -43,13 +41,10 @@ export default {
   color: white;
   text-shadow: 0px 0px 10px yellow;
 } 
-img {
-  max-height: 20vh;
-  max-width: 30vh;
-  float: center;
-}
 #entry-header h1{
-  font-size: 3.5rem;
+  font-size: 3rem;
+  padding-top: 20px;
+  
 }
 
 </style>
