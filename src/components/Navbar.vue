@@ -1,6 +1,6 @@
 <template>
-   <nav class="navbar navbar-expand-md navbar-dark">
-      <a class="navbar-brand" href="https://github.com/DavidSimonovic">David Simonovic</a>
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#home">David Simonovic</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,10 +13,11 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="#about">About & Contact</a>
+            <a  class="nav-link" href="#contact">Contact</a>
           </li>
          
         </ul>
+        
     </div>
     </nav>
 
@@ -24,11 +25,13 @@
 
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+  
 }
+
 </script>
 
-<style>
+<style scoped>
 a{
 
   font-family: 'Montserrat Alternates', sans-serif;
@@ -38,8 +41,13 @@ nav a:hover{
     text-shadow: 0px 0px 5px yellow;
 }
 .navbar {
+  
     background-color: #191516 !important;
     
+}
+.active {
+  color: navy;
+  background: white;
 }
 
 </style>

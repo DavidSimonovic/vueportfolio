@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #projects{
     background-color: #1EA896;
     padding-top: 10vh;
@@ -97,8 +97,11 @@ export default {
      font-size: 1.2rem;
      font-family: 'Montserrat Alternates', sans-serif;
 }
-#projects a:hover{
-   box-shadow: 0px 0px 15px yellow;
+.card:hover{
+    box-shadow: 0px 0px 15px yellow;
+}
+a:link{
+   
    text-decoration: none !important;
  }
  #projects img{

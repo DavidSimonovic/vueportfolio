@@ -27,7 +27,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer.vue'
 
 import Projects from './components/Projects.vue'
-import About from './components/About.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
@@ -36,13 +36,15 @@ export default {
     Welcome,
     Skills,
     Projects,
-    About,
+    Contact,
     Footer
-
+  
   }
 }
+
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 </style> 

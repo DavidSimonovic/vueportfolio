@@ -1,5 +1,5 @@
 <template>
-  <div id="about">
+  <div id="contact">
       <div class="container text-center">
           
           <div class="row">
@@ -53,12 +53,12 @@
 
 <script>
 export default {
-    name: 'About'
+    name: 'Contact'
 }
 </script>
 
-<style>
-#about{
+<style scoped>
+#contact{
     background-color: #4C5F6B;
     padding: 10vh;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -68,9 +68,7 @@ export default {
     margin-top: 5vh;
     
 }
- .card:hover{
-   box-shadow: 0px 0px 15px yellow;
- }
+
 #about h1{
     font-size: 1.4rem;
     

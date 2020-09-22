@@ -93,6 +93,7 @@ name: 'Skills'
 {
   margin-top: 5vh;
   border-radius: 50px;
+  
   }
 
  .card:hover{
